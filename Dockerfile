@@ -40,8 +40,7 @@ RUN apt-get install -y nodejs
 
 
 # _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-#### 2021/10/9 macでbuildしたらエラーでたので追記
-RUN sudo apt-get update
+
 ###install python packages
 # install OpenCV
 RUN apt-get install -y libsm6 libxext6 libxrender-dev libglib2.0-0 \
